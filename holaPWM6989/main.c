@@ -1,13 +1,13 @@
 //******************************************************************************
 // En proceso de portarse del g2553 al fr6989
-//  Hola_PWM.c - Genera una señal PWM modulada por una senial de voz,
+//  Hola_PWM.c - Genera una senial PWM modulada por una senial de voz,
 //    usando el canal 1 del timer A1. El reloj del timer se alimenta
 //    DCO a 8MHz. La senial PWM tiene  un periodo de 200 ciclos de
-//    reloj, correspondiente a 40KHz. El ragistro del canal 0 fija el
-//    periodo de la senial y el del canal 1 el ciclo de servicio
+//    reloj, correspondiente a 40KHz. El registro del canal 0 fija el
+//    periodo de la senial y el del canal 1 el ciclo de servicio.
 //    Cada 10 ciclos se modifica el ciclo de servicio, lo que
 //    corresponde a una frecuencia de muestreo de 8KHz. Se tienen 3622
-//    muestras de la senial de voz, aprox. 452 mS de señal.
+//    muestras de la senial de voz, aprox. 452 mS de senial.
 //
 //
 //
